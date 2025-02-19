@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "nosotros": "Nós",
+    "productos": "Produtos",
+    "promotor": "Bioinsumos",
+    "biorhiza": "Fertilizantes Naturais",
+    "amin": "Adjuvantes",
+    "contacto": "Contato",
+    "es": "Espanhol",
+    "pt": "Português"
+  },
+  "description": {
+    "title": "QUEM SOMOS",
+    "text-1": "é uma empresa dedicada à pesquisa, produção e comercialização de bioinsumos para o agronegócio, pensados não apenas para melhorar a qualidade e o rendimento das culturas, mas também para aprimorar o negócio agropecuário, a preservação do meio ambiente e a saúde humana.",
+    "text-2": "Trabalhamos junto com nossos clientes em todas as etapas produtivas, focando nas suas necessidades para definir o pacote tecnológico mais adequado e desenvolver estratégias voltadas para melhorar a eficiência e a rentabilidade das suas culturas.",
+    "text-3": "conta com uma equipe de profissionais e pesquisadores de grande trajetória e experiência tanto em laboratório quanto em campo, o que lhe permite enfrentar novos desafios como a inoculação múltipla ou o desenvolvimento de novas técnicas para a produção de endomicorrizas. A forte e longa relação com o ambiente produtivo e acadêmico permite que a equipe de profissionais esteja em contato com as novas tendências e as pesquisas de ponta."
+  },
+  "products": {
+    "title": "PRODUTOS",
+    "description": {
+      "text1": "Sob o conceito avançado no campo microbiológico, inoculação múltipla, <span class=\"products-text-important\">AGROTECH-BIO</span> desenvolveu um complexo avançado e exclusivo de microrganismos com a presença de 3 bactérias <span class=\"products-text-important\">PGPR</span> sinérgicos entre si.",
+      "text2": "Sua ação de <span class=\"products-text-important\">bioestimulação</span>, <span class=\"products-text-important\">biofertilização</span> e <span class=\"products-text-important\">bioproteção</span> é superior a outros consórcios de microrganismos no mercado e muito superior às formulações que contêm apenas um microrganismo.",
+      "text3": "Este consórcio de microrganismos denominado <span class=\"products-text-important\">PROMOTOR PLUS</span> é aplicável e eficaz em uma variedade de culturas e é adequado para produção agroecológica e convencional.",
+      "text4": "Por outro lado, possui <span class=\"products-text-important\">AMIN GPB</span> cujo principal componente são os aminoácidos L-alfa livres e contém macro e micronutrientes.",
+      "text5": "O teor de aminoácidos é de 16%, 5% de fósforo e 4% de potássio. Adequado para produção agroecológica, convencional e orgânica."
+    },
+    "product2": {
+      "text1": "<span class=\"products-text-important\">AGROTECH-BIO</span> está em processo de registro e aprovação de um complexo avançado e exclusivo de Endomicorrizas denominado <span class=\"products-text-important\">BIORHIZA ENDO</span> que estará disponível para cultivo em larga escala graças ao desenvolvimento tecnológico exclusivo desenvolvido pela <span class=\"products-text-important\">AGROTECH-BIO</span> para sua multiplicação e produção em larga escala.",
+      "text2": "<span class=\"products-text-important\">BIORHIZA ENDO</span> tem uma importante ação <span class=\"products-text-important\">bioestimulação</span>, <span class=\"products-text-important\">biofertilização</span> e <span class=\"products-text-important\">bioproteção</span>.",
+      "text3": "Esses produtos têm a particularidade de poderem ser aplicados em diversas culturas de forma simples e por meio ou em conjunto com práticas usuais realizadas pelo produtor, como tratamento de sementes, pulverização e irrigação. Eles têm ampla compatibilidade com a maioria das culturas. dos produtos utilizados na agricultura.",
+      "text4": "O manuseio dos produtos não acarreta nenhum risco à saúde humana ou ao meio ambiente e os mesmos são acondicionados em recipientes de fácil manuseio e destruição.",
+      "text5": "Existem outros produtos em desenvolvimento e registro no Senasa de um <span class=\"products-text-important\">bioinsecticida</span> e <span class=\"products-text-important\">biofunguicida</span>."
+    },
+    "product3": {
+      "text1": "<span class=\"products-text-important\">AGROTECH-BIO</span>  recomenda a utilização de seus produtos em conjunto, pois gera-se uma sinergia nos efeitos dos <span class=\"products-text-important\">biofertilização</span>, <span class=\"products-text-important\">bioestimulação</span> e <span class=\"products-text-important\">bioproteção</span> de culturas, o que permite maiores rendimentos e maior qualidade dos produtos colhidos."
+    }
+  },
+  "productsCard": {
+    "product-title-1": "Fertilizantes Naturais",
+    "product-text-1": "Registro Senasa em andamento",
+    "product-title-2": "Bioinsumos",
+    "product-text-2": "Registro Senasa Nº 21.645.",
+    "product-text-2-2": "Por HM4 S.A",
+    "product-title-3": "Adjuvantes",
+    "product-text-3": "Registro Senasa Nº 18.917.",
+    "product-text-3-2": "Por HM4 S.A"
+  },
+  "contact": {
+    "title": "CONTATE-NOS",
+    "text": "Preencha o formulário a seguir para que nossa equipe entre em contato com você.",
+    "info-email": "info@agrotech-bio.com",
+    "nombre": "Nome",
+    "email": "E-mail",
+    "telefono": "Telefone",
+    "consulta": "Motivo da consulta",
+    "mensaje": "Mensagem",
+    "enviar": "Enviar",
+    "error-1": "Nome é obrigatório",
+    "error-2": "E-mail é necessário",
+    "error-invalid-email": "Insira um e-mail válido.",
+    "error-3": "Telefone é necessário",
+    "error-4": "O Motivo da Consulta é obrigatório",
+    "error-5": "A mensagem é obrigatória",
+    "what": "Consulte AGROTECH-BIO",
+    "what-1": "Olá! Gostaria de fazer uma pergunta. Aqui estão meus dados:",
+    "what-2": "Nome:",
+    "what-3": "E-mail:",
+    "what-4": "Telefone:",
+    "what-5": "Motivo da consulta:",
+    "what-6": "Mensagem adicional:",
+    "what-7": "Agradeço muito sua resposta e aguardo qualquer informação adicional. Obrigado!",
+    "what-tel": "554791531491"
+  },
+  "biorhiza": {
+    "title": "Fertilizantes Naturais",
+    "sub-title": " ",
+    "text": "A <span class=\"products-text-important-2\">AGROTECH-BIO</span> possui quatro diferentes fertilizantes naturais com boro (Bo) como principal componente, atendendo à problemática quase generalizada dos solos do Brasil que têm déficit desse micronutriente.",
+    "title-list": " ",
+    "1-list": "<span class=\"products-text-important-2\">BOFOLIAR</span> é um produto à base de octoborato dissódico e é aplicado via foliar.",
+    "2-list": "<span class=\"products-text-important-2\">BORACID</span> é um fertilizante à base de ácido bórico, aplicável no solo, e também tem uso industrial.",
+    "3-list": "<span class=\"products-text-important-2\">BOULEXITA</span>, além de seu elevado teor de boro, possui um importante conteúdo de enxofre e outros micronutrientes.",
+    "4-list": "<span class=\"products-text-important-2\">BOGRAN</span> é um fertilizante granuloso com 10% de boro.",
+    "5-list": " "
+  },
+  "promotor": {
+    "title": "Bioinsumos",
+    "sub-title": " ",
+    "sub-title-2": " ",
+    "text": "Com o conceito avançado no campo microbiológico, como a inoculação múltipla, a <span class=\"products-text-important-2\">AGROTECH-BIO</span> desenvolveu um complexo exclusivo de microorganismos com a presença de 3 bactérias PGPR sinérgicas entre si. Sua ação de bioestimulação, biofertilização e bioproteção é superior a outros consórcios de microorganismos no mercado e muito superior às formulações que possuem apenas um microorganismo. Esse consórcio de microorganismos, denominado <span class=\"products-text-important-2\">PROMOTOR PLUS</span>, é aplicável e eficaz em uma diversidade de culturas e é adequado tanto para a produção agroecológica quanto convencional.",
+    "title-list": "<span class=\"products-text-important-2\">AMIN GPB </span> é um biofertilizante-bioestimulante cujo principal componente são os L-alfa aminoácidos livres, e contém macro e micronutrientes. O teor de aminoácidos é de 10%, 4,5% de fósforo e 2,4% de potássio. É adequado para a produção agroecológica, convencional e em condições de produção orgânica.",
+    "1-list": " ",
+    "2-list": " ",
+    "3-list": " ",
+    "4-list": " ",
+    "5-list": " ",
+    "text-2": "A <span class=\"products-text-important-2\">AGROTECH-BIO</span> está no processo de registro e aprovação de um complexo avançado e exclusivo de Endomicorrizas denominado <span class=\"products-text-important-2\">BIORHIZA ENDO </span>, que estará disponível para grandes culturas graças ao desenvolvimento tecnológico exclusivo da <span class=\"products-text-important-2\">AGROTECH-BIO</span> para sua multiplicação e produção em escala. O <span class=\"products-text-important-2\">BIORHIZA ENDO </span> possui uma importante ação de bioestimulação, biofertilização e bioproteção.",
+    "text-3": "Esses produtos têm a particularidade de poderem ser aplicados em uma diversidade de culturas de forma simples e por meio ou em conjunto com práticas habituais realizadas pelo produtor, como tratamento de sementes, pulverização e irrigação. Eles têm ampla compatibilidade com a maioria dos produtos utilizados no agronegócio. A manipulação dos produtos não apresenta riscos para a saúde humana nem para o meio ambiente e são embalados em recipientes de fácil manuseio e descarte. Existem outros produtos em desenvolvimento e registro de caráter bioinseticida e biofungicida.",
+    "text-4": "A <span class=\"products-text-important-2\">AGROTECH-BIO</span> recomenda o uso desses bioinsumos de forma conjunta, pois gera uma sinergia nos efeitos de biofertilização, bioestimulação e bioproteção das culturas, o que permite obter maiores rendimentos e melhor qualidade dos produtos colhidos.",
+    "text-5": " ",
+    "text-6": " ",
+    "text-7": " "
+  },
+  "amin": {
+    "title": "Adjuvantes",
+    "sub-title": "",
+    "sub-title-2": "",
+    "text": "A <span class=\"products-text-important-2\">AGROTECH-BIO</span> oferece uma série de produtos adjuvantes de alta performance que permitem melhorar os níveis de eficiência e eficácia da aplicação de produtos via pulverizações terrestres e aéreas. Conta, ainda, com assistência especializada ao produtor para a manutenção e regulagem das máquinas pulverizadoras e para a aplicação correta dos produtos.",
+    "title-list": "",
+    "1-list": "<span class=\"products-text-important-2\">FDSC TRION_SGA</span>",
+    "2-list": "<span class=\"products-text-important-2\">REDEC</span>",
+    "3-list": "<span class=\"products-text-important-2\">AON_SGA</span>",
+    "4-list": "<span class=\"products-text-important-2\">CORRECTO F_SGA</span>",
+    "5-list": "<span class=\"products-text-important-2\">FDSC_NUGEN_SGA</span>",
+    "6-list": "<span class=\"products-text-important-2\">FDSC_OILCO LB_SGA</span>",
+    "7-list": "<span class=\"products-text-important-2\">FDSC SG55_SGA</span>",
+    "8-list": "<span class=\"products-text-important-2\">FDSC TOPCLEAN</span>",
+    "text-2": " ",
+    "text-3": "",
+    "text-4": "",
+    "text-5": "",
+    "text-6": "",
+    "text-7": ""
+  },
+  "footer": {
+    "text": "Desenvolvido pela EXTRADOS Software Technology"
+  },
+  "whatsapp": {
+    "text": "Escreva para nós",
+    "error-text": "Você precisa definir a seleção de idioma."
+  }
+}

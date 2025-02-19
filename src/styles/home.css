@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: Montserrat !important;
+}
+
+.nav-bar {
+  background: #fff !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.nav-bar-btn {
+  color: rgb(3, 74, 150) !important;
+  display: block !important;
+  margin-top: 1rem !important;
+  font-size: 15px !important;
+}
+
+.description-title {
+  color: rgb(3, 74, 150) !important;
+  display: block !important;
+  margin-top: 1rem !important;
+  font-size: 5rem !important;
+  text-align: center;
+}
+
+.main-title {
+  color: #000000 !important;
+  display: block !important;
+  margin-top: 1.5rem !important;
+  font-size: 1.5rem !important;
+  text-align: center;
+  margin-bottom: 1.5rem !important;
+}
+
+.carruselPrincipal-text {
+  font-size: 4rem !important;
+}
+
+.products-text {
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 146% !important;
+  text-align: center;
+}
+
+.products-text-important {
+  color: rgb(3, 74, 150) !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 146% !important;
+}
+
+.products-text-important-2 {
+  color: rgb(3, 74, 150) !important;
+  font-weight: bold !important;
+}
+
+.products-card-title {
+  color: rgb(3, 74, 150) !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 146% !important;
+}
+
+.products-card-text {
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 146% !important;
+}
+
+.contact-title {
+  color: rgb(3, 74, 150) !important;
+  display: block !important;
+  margin-top: 1rem !important;
+  font-size: 3rem !important;
+  text-align: center;
+}
+
+.contact-text {
+  color: #000 !important;
+  display: block !important;
+  margin-top: 1rem !important;
+  font-size: 1.5rem !important;
+  text-align: center;
+}
+
+.contact-text-email {
+  color: rgb(3, 74, 150) !important;
+  display: block !important;
+  margin-top: 1rem !important;
+  font-size: 1.5rem !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  font-weight: bold !important;
+}
+
+.contact-btn {
+  padding: 8px 12px !important;
+  gap: 10px !important;
+  border: 2px solid rgb(3, 74, 150) !important;
+  border-radius: 12px !important;
+  color: rgb(3, 74, 150) !important;
+  font-size: 1rem !important;
+}
+
+.footer {
+  background-color: rgb(3, 74, 150);
+  color: #fff;
+  padding-bottom: 2;
+  text-align: center;
+}
+
+.footer-text {
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 146% !important;
+}
+
+.footer-web {
+  color: #fff;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 146% !important;
+  text-decoration: none !important;
+}
+
+.promotor-title {
+  color: rgb(3, 74, 150) !important;
+  display: block !important;
+  font-size: 2rem !important;
+  text-align: center;
+}
+
+.promotor-text {
+  color: #000 !important;
+  display: block !important;
+  font-size: 1rem !important;
+  text-align: justify;
+  margin-top: 2rem !important;
+}
+
+.promotor-text-card {
+  color: #000 !important;
+  display: block !important;
+  font-size: 1rem !important;
+  text-align: justify;
+  margin-bottom: 1rem !important;
+} 
+
+.button-user-data {
+  color: rgb(3, 74, 150)  !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  border: 2px solid rgb(3, 74, 150) !important;
+  border-radius: 12px !important;
+}
+
+.title-cards {
+  color: rgb(3, 74, 150) !important;
+  font-size: 2rem !important;
+  text-align: center;
+  font-weight: bold !important;
+}
+
+.text-cards {
+  font-size: 1rem !important;
+  text-align: center;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 600px) {
+  .nav-bar {
+    padding-bottom: 1.5rem !important;
+  }
+
+  .carruselPrincipal-text {
+    font-size: 2rem !important;
+  }
+
+  .description-title {
+    font-size: 2.5rem !important;
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "nav": {
+    "nosotros": "Nosotros",
+    "productos": "Productos",
+    "promotor": "Promotor Plus",
+    "biorhiza": "Biorhiza Endo",
+    "amin": "Amin GPB",
+    "contacto": "Contacto",
+    "es": "Español",
+    "pt": "Portugues"
+  },
+  "description": {
+    "title": "QUIÉNES SOMOS",
+    "text-1": "es una empresa dedicada a la investigación, producción y comercialización de bioinsumos para el agro, pensados no solo para mejorar la calidad y el rendimiento de los cultivos, sino también para mejorar el negocio agropecuario, la preservación del ambiente y la salud humana.",
+    "text-2": "Trabajamos junto con nuestros clientes en todas las etapas productivas poniendo foco en sus necesidades para definir el paquete tecnológico más conveniente y desarrollar estrategias orientadas a mejorar la eficiencia del mismo y la rentabilidad del cultivo.",
+    "text-3": "cuenta con un equipo de profesionales e investigadores de gran trayectoria y experiencia tanto en laboratorio como a campo que le permite abordar nuevos desafíos como la inoculación múltiple o el desarrollo de nuevas técnicas para la producción de endomicorrizas. La fuerte y larga relación con el ámbito productivo y universitario le permite al equipo de profesionales estar en contacto con las nuevas tendencias y la investigación de punta."
+  },
+  "products": {
+    "title": "PRODUCTOS",
+    "description": {
+      "text1": "Bajo el concepto de avanzada en el campo microbiológico, inoculación múltiple, <span class=\"products-text-important\">AGROTECH-BIO</span> desarrollo un avanzado y exclusivo complejo de microorganismos con la presencia de 3 bacterias <span class=\"products-text-important\">PGPR</span> sinérgicas entre sí.",
+      "text2": "Su acción de <span class=\"products-text-important\">bioestimulación</span>, <span class=\"products-text-important\">biofertilización</span> y <span class=\"products-text-important\">bioprotección</span> es superior a otros consorcios de microorganismos del mercado y muy superior a las formulaciones que poseen solo un microorganismo.",
+      "text3": "Este consorcio de microorganismos denominado <span class=\"products-text-important\">PROMOTOR PLUS</span> es aplicable y efectivo en una diversidad de cultivos y es apto para la producción agroecológica y convencional.",
+      "text4": "Por otro lado, cuenta con <span class=\"products-text-important\">AMIN GPB</span> cuyo principal componente son los L-alfa aminoácidos libres y contiene macro y micronutrientes.",
+      "text5": "El contenido de aminoácidos es del 16%, 5% de fósforo y 4% de potasio. Apto para la producción agroecológica, convencional y en condiciones de producción orgánica."
+    },
+    "product2": {
+      "text1": "<span class=\"products-text-important\">AGROTECH-BIO</span> se encuentra en el proceso de registro y aprobación de un avanzado y exclusivo complejo de Endomicorrizas denominado <span class=\"products-text-important\">BIORHIZA ENDO</span> que va a estar disponible para el gran cultivo gracias al desarrollo tecnológico exclusivo desarrollado por <span class=\"products-text-important\">AGROTECH-BIO</span> para su multiplicación y producción en escala.",
+      "text2": "<span class=\"products-text-important\">BIORHIZA ENDO</span> posee una importante acción de <span class=\"products-text-important\">bioestimulación</span>, <span class=\"products-text-important\">biofertilización</span> y <span class=\"products-text-important\">bioprotección</span>.",
+      "text3": "Estos productos tienen la particularidad que se pueden aplicar a una diversidad de cultivos en forma sencilla y mediante o conjuntamente con prácticas habituales que realiza el productor, como tratamiento de semillas, pulverización y riego. Tienen una amplia compatibilidad con la mayoría de los productos utilizados en el agro.",
+      "text4": "La manipulación de los productos no entraña ningún riesgo para la salud humana ni para el ambiente y vienen empacados en recipientes de fácil manejo y destrucción.",
+      "text5": "Existen otros productos en desarrollo y registro en senasa de carácter <span class=\"products-text-important\">bioinsecticida</span> y <span class=\"products-text-important\">biofunguicida</span>."
+    },
+    "product3": {
+      "text1": "<span class=\"products-text-important\">AGROTECH-BIO</span> recomienda el uso de sus productos en forma conjunta ya que se genera una sinergia en los efectos de <span class=\"products-text-important\">biofertilización</span>, <span class=\"products-text-important\">bioestimulación</span> y <span class=\"products-text-important\">bioprotección</span> de los cultivos lo que permite obtener mayores rendimientos y calidad de los productos cosechados."
+    }
+  },
+  "productsCard": {
+    "product-title-1": "BIORIZHA_ENDO",
+    "product-text-1": "Registro Senasa en proceso",
+    "product-title-2": "PROMOTOR PLUS",
+    "product-text-2": "Registro Senasa Nº 21.645.",
+    "product-text-2-2": "Por HM4 S.A",
+    "product-title-3": "AMIN GPB",
+    "product-text-3": "Registro Senasa Nº 18.917.",
+    "product-text-3-2": "Por HM4 S.A"
+  },
+  "contact": {
+    "title": "CONTÁCTENOS",
+    "text": "Complete el siguiente formulario para que nuestro equipo se comunique con usted.",
+    "info-email": "info@agrotech-bio.com",
+    "nombre": "Nombre",
+    "email": "Email",
+    "telefono": "Teléfono",
+    "consulta": "Motivo de consulta",
+    "mensaje": "Mensaje",
+    "enviar": "Enviar",
+    "error-1": "El Nombre es obligatorio",
+    "error-2": "El Correo es obligatorio",
+    "error-invalid-email": "Por favor, ingrese un correo válido.",
+    "error-3": "El Teléfono es obligatorio",
+    "error-4": "El Motivo de la Consulta es obligatorio",
+    "error-5": "El mensaje es obligatorio",
+    "what": "Consulta a AGROTECH-BIO",
+    "what-1": "¡Hola! Quisiera realizar una consulta. A continuación, te dejo mis datos:",
+    "what-2": "Nombre:",
+    "what-3": "Email:",
+    "what-4": "Teléfono:",
+    "what-5": "Motivo de la consulta:",
+    "what-6": "Mensaje adicional:",
+    "what-7": "Agradezco mucho tu respuesta y quedo atento a cualquier información adicional. ¡Gracias!",
+    "what-tel": "5491155776857"
+  },
+  "biorhiza": {
+    "title": "BIORHIZA-ENDO",
+    "sub-title": "Registro Senasa en proceso.",
+    "text": "Es un avanzado y exclusivo complejo de endomicorrizas con acción de bioestimulación, biofertilización y bioprotección, que actualmente se encuentra en proceso de registro y aprobación en el Senasa. Es ampliamente reconocida la importancia de las endomicorrizas en el mundo vegetal generando una acción simbiótica con el 80-85% de las plantas del mundo. Su relación simbiótica de importantes beneficios para la mayoría de los cultivos está ampliamente registrada en el campo científico y experimental.",
+    "title-list": "Beneficios:",
+    "1-list": "Mejora el rendimiento y la calidad de los cultivos.",
+    "2-list": " Incrementa la resistencia de las plantas a las diferentes condiciones de estrés biótico y abiótico.",
+    "3-list": "Incrementa el volumen de exploración del suelo.",
+    "4-list": "Mejora la disponibilidad de macro y micro nutrientes.",
+    "5-list": "Incrementa la absorción de macro y micronutrientes del suelo y favorece una nutrición equilibrada de los cultivos"
+  },
+  "promotor": {
+    "title": "Promotor Plus",
+    "sub-title": "Registro Senasa Nº 21.645.",
+    "sub-title-2": "Por HM4 S.A",
+    "text": "Es un avanzado y exclusivo complejo de microorganismos de acción bioestimulante y biofertilizante con la presencia de 3 bacterias PGPM (Bradyrizhobium sp, Rhizobium sp y Azospirillum sp) de acción sinérgica y que representa un importante avance en el concepto de inoculación múltiple. Este consorcio de microorganismos es aplicable y efectivo en una amplia diversidad de cultivos y es apto para la producción agroecológica y convencional.",
+    "title-list": "Beneficios:",
+    "1-list": "Mejora el rendimiento y la calidad de los cultivos",
+    "2-list": "Posee importante acción de bioestimulación y biofertilización.",
+    "3-list": "Mejora las características físicas y químicas del suelo.",
+    "4-list": "Mejora la disponibilidad de macro y micro nutrientes.",
+    "5-list": "Aporta nitrógeno",
+    "text-2": "Formas de utilización:",
+    "text-3": "Se puede utilizar en todos los cultivos mediante inoculación en semilla, por riego en almacigo y por drench en cultivos recién trasplantados. En cultivos ya implantados se puede aplicar mediante el riego. Su aplicación es compatible con otros bioinsumos y fertilizantes. Su uso no entraña riesgo para la salud humana y el medio ambiente.",
+    "text-4": "Para su preparación:",
+    "text-5": " Se sebe diluir en agua en las dosis recomendadas en función de su momento de aplicación y cultivo. En semilla: Se aplica en forma similar a un curasemilla en las dosis recomendadas según cultivo. Almacigo: Se diluye Promotor Plus en las dosis recomendadas y se aplica con regadera luego de la siembra o de la germinación y se repite la aplicación uno o dos días previos al trasplante. Cultivos implantados: en cultivos ya implantados que dispongan de riego por goteo se puede aplicar PROMOTOR PLUS en forma periódica de acuerdo a las recomendaciones de uso.",
+    "text-6": "Precaución:",
+    "text-7": "Mantener fuera del alcance de los niños y animales. Usar elementos de protección. Seguir indicaciones de uso y aplicación. Conservar en ambiente fresco y oscuro. Se puede utilizar en forma conjunta con otros bioestimulantes y fertilizantes. Cuando se utiliza con funguicidas, bactericidas o insecticidas es conveniente realizar la mezcla en el momento de la aplicación."
+  },
+  "amin": {
+    "title": "AMIN GPB ",
+    "sub-title": " Registro Senasa Nº 18.917.",
+    "sub-title-2": "Por HM4 S.A",
+    "text": "Es un biofertilizante y bioestimulante compuesto por un alto contenido de L-alfa aminoácidos libres y macro y micro nutrientes. Este producto es aplicable y efectivo en una diversidad de cultivos y es apto para la producción agroecológica y convencional.",
+    "title-list": "Beneficios:",
+    "1-list": "Mejora el rendimiento y la calidad de los cultivos.",
+    "2-list": "Bioestimula los procesos fisiológicos de producción del cultivo.",
+    "3-list": "Incrementa la tolerencia a diferente tipos de estrés.",
+    "4-list": "Aporta nitrógeno, macro y micro nutrientes",
+    "5-list": "Mejora la sanidad del cultivo",
+    "text-2": "Formas de utilización:",
+    "text-3": " Se puede utilizar en todos los cultivos y en diferentes etapas fenológicas. En semilla se aplica solo o en forma conjunta con inoculantes o con curasemillas; en almacigo mediante el riego y aplicaciones foliares y por drench en cultivos recién trasplantados. En cultivos ya implantados se aplica en forma foliar o se puede aplicar mediante el riego por goteo. Su aplicación es compatible con otros bioinsumos, fertilizantes, insecticidas, funguicidas, bactericidas y herbicidas, entre otros. Su uso no entraña riesgo para la salud humana y el medio ambiente.",
+    "text-4": "Para su preparación:",
+    "text-5": "Se debe diluir en agua en las dosis recomendadas en función del momento y forma de aplicación y de acuerdo al cultivo. En semilla: se puede aplicar solo o en forma conjunta con curasemillas o inocultantes según las dosis recomendadas de acuerdo al cultivo. Almacigo: Se aplica mediante riego con regaderas o a través de pulverizaciones foliares en las dosis recomendadas de acuerdo al cultivo y se pueden realizar una o más aplicaciones. Cultivos implantados: En cultivos implantados se aplica habitualmente en forma foliar y se pueden hacer una o más aplicaciones. También se puede aplicar a través del riego por goteo, en este caso las dosis son 30 a 50% mayores a las aplicaciones foliares.",
+    "text-6": "Precaución: ",
+    "text-7": "Mantener fuera del alcance de los niños y animales. Usar elementos de protección. Seguir indicaciones de uso y aplicación. Conservar en ambiente fresco y oscuro. No mezclar con productos cúpricos para evitar posibles efectos fitotóxicos. En la mezcla de producto agregar al final. Ante dudas de compatibilidad es conveniente realizar una prueba previa en 20 litros de caldo para pulverizar."
+  },
+  "footer": {
+    "text": "Desarrollado por EXTRADOS Software Technology"
+  },
+  "whatsapp": {
+    "text": "Escríbenos",
+    "error-text": "Usted debe configurar la selección de idioma."
+  }
+}
