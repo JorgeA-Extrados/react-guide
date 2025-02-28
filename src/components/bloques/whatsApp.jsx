@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import {
-    Box,
+  Box,
   Button,
   Card,
   CardContent,
@@ -19,6 +19,10 @@ import { CodeBlock } from "../custom/codeBlock";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const WhatsApp = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const navigate = useNavigate();
 
   const handleBack = () => {
@@ -71,7 +75,8 @@ const WhatsApp = () => {
 
     if (!formData.telefono) newErrors.telefono = "El Teléfono es obligatorio";
 
-    if (!formData.motivo) newErrors.motivo = "El Motivo de la Consulta es obligatorio";
+    if (!formData.motivo)
+      newErrors.motivo = "El Motivo de la Consulta es obligatorio";
 
     if (!formData.mensaje) newErrors.mensaje = "El mensaje es obligatorio";
 
@@ -154,11 +159,10 @@ const WhatsApp = () => {
                 marginBottom: { xs: 2, sm: 0 },
               }}
             >
-              <Typography className="contact-title">
-              CONTÁCTENOS
-              </Typography>
+              <Typography className="contact-title">CONTÁCTENOS</Typography>
               <Typography className="contact-text">
-              Complete el siguiente formulario para que nuestro equipo se comunique con usted.
+                Complete el siguiente formulario para que nuestro equipo se
+                comunique con usted.
               </Typography>
             </Box>
 

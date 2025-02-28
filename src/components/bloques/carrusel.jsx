@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -8,6 +8,10 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { CodeBlock } from "../custom/codeBlock";
 
 const Carrusel = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   var settings = {
     dots: false,
     infinite: true,
@@ -262,7 +266,7 @@ const Carrusel = () => {
                 }}
               >
                 <Typography className="carruselPrincipal-text">
-                EXTRADOS Software Technology
+                  EXTRADOS Software Technology
                 </Typography>
               </Box>
             </Box>
@@ -298,7 +302,7 @@ const Carrusel = () => {
                 }}
               >
                 <Typography className="carruselPrincipal-text">
-                EXTRADOS Software Technology
+                  EXTRADOS Software Technology
                 </Typography>
               </Box>
             </Box>

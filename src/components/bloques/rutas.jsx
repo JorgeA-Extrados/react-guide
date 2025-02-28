@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { Container, IconButton, Typography } from "@mui/material";
 import { CodeBlock } from "../custom/codeBlock";
 
 const Rutas = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const navigate = useNavigate();
 
   const handleBack = () => {
@@ -68,8 +72,9 @@ const Rutas = () => {
             Ver documentación oficial
           </a>
         </Typography>
-        <Typography className="main-title" sx={{fontWeight: "bold"}}>
-        A continuación se muestra su implementación en un proyecto real. Para mayor profundización ver el código fuente.
+        <Typography className="main-title" sx={{ fontWeight: "bold" }}>
+          A continuación se muestra su implementación en un proyecto real. Para
+          mayor profundización ver el código fuente.
         </Typography>
 
         <IconButton

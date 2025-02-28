@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Crear una instancia de Axios
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL, // URL de la API definida en .env
+  baseURL: import.meta.env.VITE_API_URL, // URL de la API definida en .env
   timeout: 5000, // Tiempo máximo de espera
   headers: {
     "Content-Type": "application/json", // Configurar headers globales
@@ -79,7 +79,7 @@ api.interceptors.response.use(
           const parsedLogin = JSON.parse(userLogin);
 
           const refreshPromise = axios.post(
-            `${process.env.REACT_APP_API_URL}/refresh-tokens`,
+            `${import.meta.env.VITE_API_URL}/refresh-tokens`,
             { refreshToken: parsedLogin.refreshToken }
           );
 

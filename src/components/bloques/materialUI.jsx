@@ -1,17 +1,21 @@
 import { Container, IconButton, Typography } from "@mui/material";
-import React from "react";
+import React, { useEffect } from "react";
 import { CodeBlock } from "../custom/codeBlock";
 import { useNavigate } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
 const MaterialUI = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const navigate = useNavigate();
 
   const handleBack = () => {
     navigate("/"); // Función para retroceder en la navegación
   };
 
-    const exampleCode = `  
+  const exampleCode = `  
         // Componente personalizado
         import { Button } from '@mui/material';
         import React from 'react';
@@ -52,7 +56,9 @@ const MaterialUI = () => {
       <Container sx={{ overflow: "hidden", paddingBottom: "2rem" }}>
         <Typography className="description-title">Material UI</Typography>
         <Typography className="main-title">
-        Material UI es una biblioteca de componentes React de código abierto que implementa Material Design de Google. Es completa y se puede usar en producción de manera inmediata. <br />
+          Material UI es una biblioteca de componentes React de código abierto
+          que implementa Material Design de Google. Es completa y se puede usar
+          en producción de manera inmediata. <br />
           <a
             href="https://mui.com/material-ui/getting-started/"
             target="_blank"

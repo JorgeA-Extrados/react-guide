@@ -14,6 +14,10 @@ import "../styles/home.css";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   //Guide
   const navigate = useNavigate();
 
@@ -91,15 +95,60 @@ const Home = () => {
     },
     {
       title: "Firebase Imagenes",
+      // description:
+      //   "Subida, almacenamiento y gestión de imágenes en Firebase Storage dentro de una aplicación React.",
       description:
-        "Subida, almacenamiento y gestión de imágenes en Firebase Storage dentro de una aplicación React.",
-      rute: "/firebase-img",
+        "No es posible la utilizacion ya que para el servicio solicitado me pide cambio de plan a uno pago.",
+      rute: "#",
     },
-    // {
-    //   title: "Login",
-    //   description: "Autenticación y gestión de tokens para sesiones seguras.",
-    //   rute: "/manejo-token",
-    // },
+    {
+      title: "AOS - Animate On Scroll Library",
+      description:
+        "Librería en React para animar elementos al hacer scroll, mejorando la experiencia visual del usuario.",
+      rute: "/aos",
+    },
+    {
+      title: "Signup",
+      description:
+        "Registro de nuevos usuarios en React mediante formularios validados y almacenamiento seguro de credenciales.",
+      rute: "/signup",
+    },
+    {
+      title: "Login",
+      description:
+        "Proceso de autenticación en React que permite a los usuarios acceder a la aplicación mediante credenciales seguras.",
+      rute: "/login",
+    },
+    {
+      title: "IA",
+      description:
+        "La implementación de IA en React permite integrar modelos de inteligencia artificial para mejorar la experiencia del usuario.",
+      rute: "/ia",
+    },
+    {
+      title: "Cohere AI",
+      description:
+        "Cohere AI es una plataforma de inteligencia artificial que proporciona modelos de procesamiento de lenguaje natural (NLP).",
+      rute: "/cohereAI",
+    },
+    {
+      title: "Redux Toolkit",
+      description:
+        "Redux Toolkit es la biblioteca oficial de Redux que simplifica la gestión del estado global en aplicaciones de React.",
+      rute: "/redux-toolkit",
+    },
+    {
+      title: "Redux Toolkit",
+      description:
+        "Redux Toolkit es la biblioteca oficial de Redux que simplifica la gestión del estado global en aplicaciones de React.",
+      rute: "/redux-toolkit",
+    },
+    {
+      title: "Sidebar",
+      description:
+        "Un sidebar estilo admin en React con Vite y Material UI, con un menú lateral desplegable que permite navegar entre diferentes secciones del panel de administración.",
+      rute: "/sidebar",
+    },
     // {
     //   title: "Chat",
     //   description: "Autenticación y gestión de tokens para sesiones seguras.",

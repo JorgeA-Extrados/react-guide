@@ -22,6 +22,10 @@ const pages = ["Products", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 export default function Navbar() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { t, i18n } = useTranslation();
 
   const navigate = useNavigate();
@@ -832,7 +836,6 @@ export default function Navbar() {
 
         <CodeBlock code={exampleCode} />
       </Container>
-
     </>
   );
 }

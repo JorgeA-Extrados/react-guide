@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { Container, IconButton, Typography } from "@mui/material";
 import { CodeBlock } from "../custom/codeBlock";
 
 const ApiCalls = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const navigate = useNavigate();
 
   const handleBack = () => {
@@ -15,7 +19,7 @@ const ApiCalls = () => {
     import axios from "axios";
         // Crear una instancia de Axios
         const api = axios.create({
-        baseURL: process.env.REACT_APP_API_URL, // URL de la API definida en .env
+        baseURL: import.meta.env.VITE_API_URL, // URL de la API definida en .env
         timeout: 5000, // Tiempo máximo de espera
         headers: {
             "Content-Type": "application/json", // Configurar headers globales

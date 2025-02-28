@@ -6,13 +6,17 @@ import {
   IconButton,
   Typography,
 } from "@mui/material";
-import React from "react";
+import React, { useEffect } from "react";
 import { CodeBlock } from "../custom/codeBlock";
 import { useNavigate } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { useTranslation } from "react-i18next";
 
 const Traduccion = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
 

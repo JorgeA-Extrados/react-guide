@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -12,6 +12,10 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { CodeBlock } from "../custom/codeBlock";
 
 const Tables = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   function createData(name, calories, fat, carbs, protein) {
     return { name, calories, fat, carbs, protein };
   }
