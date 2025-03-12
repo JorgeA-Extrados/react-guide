@@ -13,12 +13,12 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import {
-  anthropicAI,
-  askOpenAI,
-  cohereAI,
-  huggingFace,
-} from "../../services/isService";
+// import {
+//   anthropicAI,
+//   askOpenAI,
+//   cohereAI,
+//   huggingFace,
+// } from "../../services/isService";
 import ReactMarkdown from "react-markdown";
 import * as mobilenet from "@tensorflow-models/mobilenet";
 
@@ -386,7 +386,10 @@ const IA = () => {
         >
           Cohere IA
         </Typography>
-        <Box
+        <Typography className="main-title">
+          Esta IA es la unica que se pudo implementar con lo cual se establece un bloque propio con diferentes aplicaciones
+          </Typography>
+        {/* <Box
           sx={{
             width: "80%",
             margin: "auto",
@@ -399,7 +402,6 @@ const IA = () => {
             Chat con Cohere AI
           </Typography>
 
-          {/* Chat History */}
           <Box
             sx={{
               height: "300px",
@@ -432,7 +434,6 @@ const IA = () => {
             )}
           </Box>
 
-          {/* Input y Botón */}
           <Box sx={{ display: "flex", marginTop: 2 }}>
             <TextField
               fullWidth
@@ -450,7 +451,7 @@ const IA = () => {
               Enviar
             </Button>
           </Box>
-        </Box>
+        </Box> */}
 
         <Divider
           sx={{ margin: "16px 0", borderBottomWidth: 4, background: "#000" }}

@@ -138,12 +138,6 @@ const Home = () => {
       rute: "/redux-toolkit",
     },
     {
-      title: "Redux Toolkit",
-      description:
-        "Redux Toolkit es la biblioteca oficial de Redux que simplifica la gestión del estado global en aplicaciones de React.",
-      rute: "/redux-toolkit",
-    },
-    {
       title: "Sidebar",
       description:
         "Un sidebar estilo admin en React con Vite y Material UI, con un menú lateral desplegable que permite navegar entre diferentes secciones del panel de administración.",
